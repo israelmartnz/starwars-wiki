@@ -1,0 +1,198 @@
+.App {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+}
+
+.error--message {
+  color: rgb(71, 71, 71);
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  line-height: 50px;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+}
+
+.sort--container {
+  position: relative;
+}
+
+.sort--button {
+  height: 40px;
+  width: 70px;
+  margin: 0 10px;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+}
+
+.sort--button:hover {
+  background-color: rgb(249, 250, 251);
+}
+
+.sort--menu {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 2px;
+  padding: 5px;
+  cursor: default;
+}
+
+.menu--title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.close--button {
+  color: white;
+  background-color: rgb(224, 224, 224);
+  height: 20px;
+  border-radius: 5px;
+}
+
+.close--button:hover {
+  background-color: rgb(253, 231, 219);
+}
+
+.sort--menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu--items {
+  font-size: 14px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.menu--items:hover {
+  background-color: rgb(253, 231, 219);
+  border-radius: 5px;
+}
+/*searchBar*/
+.searchbar--container {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.search--icon {
+  position: absolute;
+  height: 14px;
+  left: 3px;
+  top: 3px;
+  padding: 10px 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border: 0;
+  border-radius: 10px;
+}
+
+.search--icon:hover {
+  background-color: rgb(249, 250, 251);
+}
+
+.searchbar--input {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 10px;
+  text-indent: 45px;
+  box-sizing: border-box;
+}
+
+.movie--container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+/*Movie title column*/
+.title--container {
+  margin: 3px 20px;
+  padding: 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  font-size: 12px;
+}
+
+.title--container:hover {
+  background-color: rgb(253, 231, 219);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.episode--num {
+  width: 100px;
+  padding: 0 5px;
+}
+
+.episode--title {
+  width: 200px;
+  padding: 0 5px;
+  text-align: left;
+}
+
+.episode--date {
+  width: 100px;
+  padding: 0 5px;
+}
+
+/*Movie description column*/
+.description--container {
+  display: flex;
+  align-self: center;
+  width: 50%;
+  height: 100%;
+  font-size: 10px;
+}
+.description--flex {
+  text-align: left;
+  margin: 10px;
+}
+
+.description--title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description--paragraph {
+  font-size: 12px;
+}
+.description--director {
+  margin-top: 10px;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-style: italic;
+}
